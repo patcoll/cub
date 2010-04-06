@@ -1,0 +1,6 @@
+[submodule "vendors/Twig"]
+	path = vendors/Twig
+	url = git://github.com/fabpot/Twig.git
+[submodule "vendors/yaml"]
+	path = vendors/yaml
+	url = git://github.com/fabpot/yaml.git
