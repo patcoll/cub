@@ -13,6 +13,7 @@ task :build do
   # copy assets
   cd PUBLIC
   cp_r "static", BUILD
+  rm_f "#{BUILD}/static/.gitignore"
   
   # get list of templates to process
   cd TEMPLATES
